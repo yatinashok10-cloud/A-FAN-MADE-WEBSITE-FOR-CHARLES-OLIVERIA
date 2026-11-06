@@ -1,69 +1,38 @@
-# A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA
-THE WEBSITE WHICH IS MADE BY ME FOR THE BMF GOAT CHARLEOLIVERIA(FAN BASED)
+# Charles Oliveira Fan Page
 
+A fan page for UFC fighter Charles Oliveira, with his career story, a look at two of his recent fights, and a contact section.
 
-https://github.com/user-attachments/assets/221ec0b8-a94a-4362-bf93-32a32bd98f85
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59a504bc-80c7-4f98-8629-537ec49afbf3" />
+!<img width="1919" height="1080" alt="Screenshot 2026-11-06 114644" src="https://github.com/user-attachments/assets/56159f0c-e8b8-4a7c-961e-5b39f3c21953" />
 
-# 🥋 Charles Oliveira – "do Bronx" Fan Website
+## Live demo
 
-This is an unofficial fan site that features **Charles Oliveira**, the Brazilian mixed martial artist, and black belt Brazilian jiu-jitsu fighter who goes by the nickname *’Do Bronx’*, former lightweight champion of the UFC.
+You can try it without downloading anything: **https://charlesoliveriafanpage.netlify.app/**
 
-## 📖 About
+## Why I made this
 
-The website is a single-page website that talks about the life and career of Charles Oliveira, including his upbringing in Guarujá, São Paulo, and his achievements as a UFC champion. further customized with my personal content and changes.
+I'm a fan of Charles Oliveira. His story, from growing up in Guarujá, Brazil to fighting his way to the top of the UFC after being written off more than once, is one I wanted to put on a page. I also wanted to practice building a full website, and a fan page gave me a real project to work on instead of a blank template.
 
-## ✨ Features
+## What's on the site
 
-- 🎨 Clean and contemporary full responsiveness (PC, tablet, mobile) - 🧭 Smooth scrolling navigation menu - 🦸 Introductory hero section - 👤 Biographies and careers - 🏆 Highlighted fights and achievements - 🖼️ Photo gallery - 📬 Contact and social media section - ⚡ Quick loading, lightweight
+- **Homepage:** a profile photo, a short intro, and links to his socials
+- **Experience:** his career story from 2010 to now
+- **Best Recent Fights:** a look at his fights against Dustin Poirier and Diego Lopes, with fight details and watch links
+- **Contact:** a contact form
+- A navigation bar to jump between all the sections
 
-- ## 🛠️ Built With
+## How it was made
 
-| Technology | Purpose |
-|------------|---------|
-| HTML5 | Page structure |
-| CSS3 | Styling, layout, animations |
-| JavaScript | Interactivity |
+This is a static website built with HTML, CSS and JavaScript, and it's hosted on [Netlify](https://www.netlify.com/).
 
-## 📂 Project Structure
+## How to run it
 
+There's nothing to install because it's a static site.
+
+1. Clone the source code to your device
+```sh
+git clone https://github.com/yatinashok10-cloud/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA.git && cd A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA
 ```
-REPO_NAME/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── ...
-└── README.md
 
+2. Open `index.html` in your browser. For auto-reload while editing, use the Live Server extension in VS Code.
 
-## 🙏 Credits
-
-- Tutorial/inspiration: [Yuvipep and hackclub(stardance)  
-Images & fight media are copyright their respective owners (the photographers, UFC and Charles Oliveira).
-Icons: [Font Awesome](https://fontawesome.com/)  
-Fonts: [Google Fonts](https://fonts.google.com/)
-
-## ⚠️ Disclaimer
-
-This is a **non-official fan project** created for educational and entertainment purposes. This project is in no way associated with or endorsed by Charles Oliveira or the UFC or any related company. The logos, pictures, and other brand names are the intellectual property of their respective holders. If you are one of them, please feel free to create an issue and we will remove it immediately.
-
-
-## 👤 Author
-
-**Yatin**
-
-⭐ If you found this project interesting, give it a star on GitHub!
-
-
-
-
-
-
-
-
-
-
-
+3. To host your own copy, drag the project folder into [Netlify Drop](https://app.netlify.com/drop) or connect the repo to Netlify.
