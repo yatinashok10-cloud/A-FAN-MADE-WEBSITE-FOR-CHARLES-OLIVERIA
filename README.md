@@ -1,38 +1,42 @@
 # Charles Oliveira Fan Page
 
-A fan page for UFC fighter Charles Oliveira, with his career story, a look at two of his recent fights, and a contact section.
+An fan page I created for the UFC fighter. It has the bio of Charles's career and a section with 2 most recent fights of him. The site also has a contact form.
 
-!<img width="1919" height="1080" alt="Screenshot 2026-11-06 114644" src="https://github.com/user-attachments/assets/56159f0c-e8b8-4a7c-961e-5b39f3c21953" />
-
-## Live demo
-
-You can try it without downloading anything: **https://charlesoliveriafanpage.netlify.app/**
+Live site: https://charlesoliveriafanpage.netlify.app/
 
 ## Why I made this
 
-I'm a fan of Charles Oliveira. His story, from growing up in Guarujá, Brazil to fighting his way to the top of the UFC after being written off more than once, is one I wanted to put on a page. I also wanted to practice building a full website, and a fan page gave me a real project to work on instead of a blank template.
+I have been a long-term fan of Charles Oliveira. He comes from Brazil (Guarujá), has been written off multiple times but still managed to become the UFC champion. I was fascinated by this story and decided to feature it on my page.
 
-## What's on the site
+Also, I wanted to try making my own website instead of just going through tutorials, and thought that the fan website would be an entertaining way to practice that. [the challenges I faced when making this, something technical like had difficulties with navbar and making it look good on mobile].
 
-- **Homepage:** a profile photo, a short intro, and links to his socials
-- **Experience:** his career story from 2010 to now
-- **Best Recent Fights:** a look at his fights against Dustin Poirier and Diego Lopes, with fight details and watch links
-- **Contact:** a contact form
-- A navigation bar to jump between all the sections
+## Content
 
-## How it was made
+- **Home** - picture of him, brief description and social networks links
+- **Experience** - his career since 2010 till the present time
+- **Best Recent Fights** - the description and links to see his fights against Dustin Poirier and Diego Lopes
+- **Contact** - contact form
+- Navbar to navigate through all those
 
-This is a static website built with HTML, CSS and JavaScript, and it's hosted on [Netlify](https://www.netlify.com/).
+## Technical implementation
 
-## How to run it
+This is a pure static website with only HTML, CSS and JavaScript. It runs on Netlify.
 
-There's nothing to install because it's a static site.
+## How to run this
 
-1. Clone the source code to your device
-```sh
-git clone https://github.com/yatinashok10-cloud/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA.git && cd A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA
-```
+It is not necessary to have any additional software installed.
 
-2. Open `index.html` in your browser. For auto-reload while editing, use the Live Server extension in VS Code.
+1. Clone the repository:
 
-3. To host your own copy, drag the project folder into [Netlify Drop](https://app.netlify.com/drop) or connect the repo to Netlify.
+   ```
+   git clone https://github.com/yatinashok10-cloud/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA.git
+   cd A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA
+   ```
+
+2. Open index.html in a browser window. You don't have to do anything special if you are working on this project, but if you use VS Code then you can use Live Server extension to make it update the web-page automatically each time you change the code.
+
+3. To publish your own version of this website just drag the directory to Netlify drop service or link it directly with Netlify.
+
+## Future improvements
+
+still none
