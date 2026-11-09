@@ -55,7 +55,7 @@ thead th{border-bottom:2px solid var(--lime);color:var(--lime)}
 .fights figure{max-width:30rem}
 
 .gallery{padding:clamp(3rem,8vw,6rem) clamp(1rem,5vw,4rem)}
-.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1rem,3vw,2rem);align-items:start}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,24rem));gap:clamp(1rem,3vw,2rem);align-items:start}
 .gallery figure img{width:100%;border:2px solid var(--line)}
 .gallery figcaption{margin-top:.5rem;font-size:1rem}
 
@@ -99,3 +99,4 @@ footer p{max-width:48rem;margin-bottom:.75rem}
   tr{border-bottom:1px solid var(--line);padding:1rem 0}
   th,td{border:0;padding:.15rem 0}
 }
+
