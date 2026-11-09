@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yatinashok10-cloud.github.io/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA/sitemap.xml

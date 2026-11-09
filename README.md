@@ -1,31 +1,38 @@
-# Charles Oliveira Fan Page
+# Charles Oliveira Fan Site
 
-An fan page I created for the UFC fighter. It has the bio of Charles's career and a section with 2 most recent fights of him. The site also has a contact form.
+An unofficial fan site about UFC fighter Charles Oliveira. Plain HTML, CSS and JavaScript, no build step.
 
-Live site: https://charlesoliveriafanpage.netlify.app/
+## Files
 
-## Why I made this
+```
+index.html
+privacy.html
+terms.html
+404.html
+style.css
+script.js
+favicon.svg
+robots.txt
+sitemap.xml
+Charles-Oliveira-pfp.jpg
+8639060.jpg
+8639063.jpg
+8639170.jpg
+oliveira-punch.webp
+```
 
-I have been a long-term fan of Charles Oliveira. He comes from Brazil (Guarujá), has been written off multiple times but still managed to become the UFC champion. I was fascinated by this story and decided to feature it on my page.
+## Setup
 
-Also, I wanted to try making my own website instead of just going through tutorials, and thought that the fan website would be an entertaining way to practice that. [the challenges I faced when making this, something technical like had difficulties with navbar and making it look good on mobile].
+1. Create a free form at https://formspree.io and replace `YOUR_FORM_ID` in `index.html`.
+2. Optional analytics: sign up at https://www.goatcounter.com and replace `YOURCODE` in the `data-goatcounter` attribute of each page.
+3. Open `index.html` in a browser, or publish with GitHub Pages.
 
-## Content
+## Credits
 
-- **Home** - picture of him, brief description and social networks links
-- **Experience** - his career since 2010 till the present time
-- **Best Recent Fights** - the description and links to see his fights against Dustin Poirier and Diego Lopes
-- **Contact** - contact form
-- Navbar to navigate through all those
+Fonts: Anton and Karla from Google Fonts. Photos and artwork belong to their respective owners (photographers, artists, UFC).
 
-## Technical implementation
+## Disclaimer
 
-This is a pure static website with only HTML, CSS and JavaScript. It runs on Netlify.
+Non-official fan project for fun. Not affiliated with or endorsed by Charles Oliveira or the UFC. If you own an image used here and want it removed, open an issue.
 
-## How to run this
-https://charlesoliveriafanpage.netlify.app/
-
-   
-## Future improvements
-
-still none
+Author: Yatin

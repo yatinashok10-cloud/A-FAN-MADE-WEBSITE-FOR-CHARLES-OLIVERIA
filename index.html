@@ -1,158 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charles Oliveira Fan Site | Fights, Story and Next Fight</title>
+  <meta name="description" content="Unofficial fan site for UFC fighter Charles Oliveira: his story, recent fights, photos and the BMF title fight against Diego Lopes at UFC 335.">
+  <link rel="canonical" href="https://yatinashok10-cloud.github.io/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Charles Oliveira Fan Site">
+  <meta property="og:description" content="His story, recent fights and the BMF title fight at UFC 335.">
+  <meta property="og:url" content="https://yatinashok10-cloud.github.io/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA/">
+  <meta property="og:image" content="https://yatinashok10-cloud.github.io/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-goatcounter="https://YOURCODE.goatcounter.com/count">
 
-    <header class="header">
-        <a href="#" class="logo"><span>charles oliveria</span></a>
+<header class="site-header">
+  <a class="brand" href="#about">Charles Oliveira</a>
+  <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" class="nav">
+    <a href="#story">Story</a>
+    <a href="#fights">Fights</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-        <ul class="nav-links">
-            <li>
-                <a href="#about">About</a>
-            </li>
+<main>
+  <section id="about" class="hero">
+    <div class="hero-text">
+      <p class="kicker">Unofficial fan site</p>
+      <h1>Charles<br>Oliveira</h1>
+      <p class="lead">Brazilian jiu-jitsu black belt from Guaruj&aacute;. Former UFC lightweight champion, current BMF champion, and the man with the most finishes and most submission wins in UFC history.</p>
+      <p><a class="btn" href="#fights">See the next fight: UFC 335, Dec 12</a></p>
+    </div>
+    <div class="hero-photo">
+      <img src="Charles-Oliveira-pfp.jpg" alt="Charles Oliveira holding the UFC lightweight belt and wearing the Brazilian flag" width="800" height="800">
+    </div>
+  </section>
 
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
+  <section id="story" class="story">
+    <div class="story-img">
+      <img src="8639060.jpg" alt="Poster artwork reading Charles do Bronx, with Oliveira holding up two fingers and wearing a Brazilian flag" width="967" height="1200" loading="lazy">
+    </div>
+    <div class="story-text">
+      <h2>From the streets of Guaruj&aacute; to the belt</h2>
+      <p>Charles grew up in a modest home in Guaruj&aacute;, Brazil, and found jiu-jitsu as a teenager. The mat became his school and his way out.</p>
+      <p>He reached the UFC in 2010, still in his early twenties. The road was rough. He was doubted, written off and knocked down more than most fighters ever are, and each time he rebuilt and kept winning.</p>
+      <p>In May 2021 he stopped Michael Chandler to win the lightweight title, then beat Dustin Poirier in December to defend it. After losing the belt he kept coming back. In March 2026, at 36, he out-grappled Max Holloway over five rounds to take the BMF title.</p>
+      <p>His record stands at 37-11 with one no contest, and 22 of those wins came by submission.</p>
+    </div>
+  </section>
 
-            <li></li>
-                <a href="#fights">Fights</a>
-            </li>
+  <section id="fights" class="fights">
+    <h2>Fights</h2>
 
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+    <h3>Next fight</h3>
+    <div class="next-fight">
+      <p class="matchup">Charles Oliveira vs. Diego Lopes</p>
+      <p>BMF title, five rounds at lightweight. UFC 335, Saturday, December 12, 2026, T-Mobile Arena, Las Vegas. In the US it streams on Paramount+.</p>
+      <p>Lopes is 28-8 and moves up from featherweight for this fight.</p>
+    </div>
 
-        </ul>
+    <h3>Also on the UFC 335 card</h3>
+    <ul class="card-list">
+      <li>Alex Pereira vs. Sergei Pavlovich, heavyweight co-main event</li>
+      <li>Brandon Moreno vs. Charles Johnson</li>
+      <li>Junior Tafa vs. Quentin Pasley</li>
+      <li>Maycee Barber vs. Carli Judice</li>
+      <li>Chris Padilla vs. Chase Hooper</li>
+    </ul>
+    <p class="note">Fight cards can change. Check UFC.com for the latest lineup and start times.</p>
 
-        <i class="fa-solid fa-bars" id="menu icon"></i>
+    <h3>Past fights</h3>
+    <table>
+      <caption class="sr">Recent fights</caption>
+      <thead>
+        <tr><th scope="col">Opponent</th><th scope="col">Event</th><th scope="col">Date</th><th scope="col">Result</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Max Holloway</th><td>UFC 326</td><td>Mar 2026</td><td>Won, BMF title</td></tr>
+        <tr><th scope="row">Dustin Poirier</th><td>UFC 269</td><td>Dec 2021</td><td>Won by submission, round 3</td></tr>
+        <tr><th scope="row">Michael Chandler</th><td>UFC 262</td><td>May 2021</td><td>Won by TKO, round 2, lightweight title</td></tr>
+      </tbody>
+    </table>
+    <figure>
+      <img src="8639170.jpg" alt="Charles Oliveira locking a choke on an opponent against the cage" width="1125" height="1378" loading="lazy">
+    </figure>
+  </section>
 
-        <button class="visit-btn">visit my socials</button>
-    </header>
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <figure>
+        <img src="8639063.jpg" alt="Illustrated artwork of Charles Oliveira lifting an opponent, with a profile portrait behind" width="1400" height="1680" loading="lazy">
+        <figcaption>Fan artwork by Danilo de Almeida.</figcaption>
+      </figure>
+      <figure>
+        <img src="8639233.jpg" alt="Charles Oliveira landing a punch on an opponent against the cage" width="900" height="506" loading="lazy">
+        <figcaption>Photo: Getty Images.</figcaption>
+      </figure>
+    </div>
+  </section>
 
-    <section id="about" class="about">
-        <div class="about-container">
-            <img src="Charles-Oliveira-pfp.jpg" alt="Charles Oliveira">
+  <section id="contact" class="contact">
+    <h2>Write to the site owner</h2>
+    <p>This is a fan project. Messages go to the person who built the site, not to Charles Oliveira.</p>
+    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+      <label for="email">Your email</label>
+      <input id="email" name="email" type="email" required maxlength="120" autocomplete="email">
+      <label for="message">Message (10 to 1000 characters)</label>
+      <textarea id="message" name="message" rows="5" required minlength="10" maxlength="1000"></textarea>
+      <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p id="form-status" class="status" role="alert"></p>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+    <p class="social">
+      <a href="https://www.instagram.com/charlesdobronxs/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://x.com/CharlesDoBronxs" target="_blank" rel="noopener noreferrer">X</a>
+    </p>
+  </section>
+</main>
 
-            <div class="info-box">
-                <div class="text"></div></div>
-                    <h3>Hi there!</h3>
-                    <h1>I'm charles oliveria</h1>
-                    <span>i'm a professional mixed martial artist and the current UFC lightweight champion. i have been competing in the sport for over a decade and have faced some of the toughest opponents in the world. my journey has been filled with ups and downs, but my passion for the sport has never wavered.</span>
-                </div>
+<footer>
+  <p>Unofficial fan site. Not affiliated with or endorsed by Charles Oliveira or the UFC. Photos and artwork belong to their respective owners and are shown for fan purposes.</p>
+  <p class="foot-links">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms and conditions</a>
+    <button type="button" id="consent-reset" class="link-btn">Analytics choice</button>
+    <a href="#about">Back to top</a>
+  </p>
+</footer>
 
-                <div class="btn-group">
-                    <div class="btn">download CV</div>
-                    <div class="btn">contact me</div>
-                </div>
-                <div class="socials">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                </div>
-            </div>
-        </div>
-            
-    </section>
-
-    <section id="experience" class="experience">
-        
-        <h2 class="section-title">Experience</h2>
-
-        <div class="experience-info">
-            
-            <div class="grid">
-                <div class="grid-card">
-                    
-                    <span>UFC FIGHTER</span>
-                    <h3>2010 - present</h3>
-                    <p>Charles Oliveira’s story begins far from the bright lights of Las Vegas, on the streets of Guarujá, Brazil, where he grew up in a modest home and found jiu-jitsu as a teenager. The mat became his escape, his school, and his future. He reached the UFC in 2010 while still in his early twenties, but the road was never smooth. He was doubted, written off, and knocked down more times than most fighters ever have to face, and every time, people said his time had passed. Instead of quitting, he rebuilt himself, moved up to lightweight, and kept winning. In 2021 he stopped Michael Chandler to become UFC Lightweight Champion, then defended the belt against Dustin Poirier that December. Even after losing the title and falling short in big fights, he kept coming back. In March 2026, at 36, he out-grappled Max Holloway over five rounds to win the BMF title, proof that his story is far from over. With a 37-11 record that includes 22 submission wins, UFC records for most finishes and most submission victories, and a fresh eight-fight contract, he is now set to defend the belt against Diego Lopes at UFC 335. Oliveira reminds us that falling down is not failure, giving up is, and that a kid from Guarujá can fight his way into history.</p>
-                </div>
-
-            </div>
-
-            <img src="8639060.jpg" alt="Charles Oliveira fight">
-        </div>
-    </section>
-
-        <section id="projects" class="projects">
-
-
-            <h2 class="section-title"> Best Recent fights</h2>
-
-            <div class="projects-grid">
-              <div class="project-card">
-
-                <img src="8639170.jpg" alt="Charles Oliveira fight 1">
-                <h3>Charles Oliveira vs. Dustin Poirier</h3>
-                <p>In this fight, Oliveira showcased his grappling skills and submission game, ultimately winning the fight via submission in the third round. It was a thrilling contest that demonstrated Oliveira's ability to adapt and overcome his opponent's strengths.</p>
-                <div class="btn-group">
-                    <div class="btn">View Fight Details</div>
-                    <div class="btn">Watch Fight</div>
-                </div>
-              </div>
-                </div>
-
-              <div class="project-card">
-                <img src="8639233.jpg" alt="Charles Oliveira fight 3">
-                <h3>Charles Oliveira vs. Diego Lopes</h3>
-                <p>In this fight, Oliveira utilized his technical skills and experience to secure a victory via submission in the first round. The contest was a testament to his ability to control the pace of the fight and capitalize on opportunities.</p>
-                <div class="btn-group">
-                    <div class="btn">View Fight Details</div>
-                    <div class="btn">Watch Fight</div>
-                </div>
-              </div>
-            </div>
-        </section>
-
-    <section id="contact" class="contact">
-        <div class="input-box">
-            <h2 class="section-title">Contact Me</h2>
-
-            <div class="input">
-                <input type="email" placeholder="Email">
-                <i class="fa-regular fa-envelope"></i>
-                <div class="btn">Send Message</div>
-            </div>
-
-            <div class="btn">submit</div>
-        </div>
-    </section>
-
-
-    <footer>
-
-
-        <ul>
-
-            <li>
-
-                <a href="#about">ABOUT</a>
-            </li>
-
-            <li>
-                <a href="#experience">EXPERIENCE</a>
-            </li>
-            <li>
-                <a href="#fights">FIGHTS</a>
-            </li>
-            <li>
-                <a href="#contact">CONTACT</a>
-            </li>
-        </ul>
-
-
-
-
-        <p class="copyright">@All Rights Reserved / @CHARLES OLIVERIA FANS PAGE</p>
-    </footer>
-
-    <script src="script.js"></script>
-    
+<script src="script.js"></script>
 </body>
 </html>
