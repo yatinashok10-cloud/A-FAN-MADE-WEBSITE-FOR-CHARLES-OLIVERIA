@@ -1,7 +1,7 @@
 # Charles Oliveira Fan Site
 
 An unofficial fan site about UFC fighter Charles Oliveira. Plain HTML, CSS and JavaScript, no build step.
-**Live site:** https://charlesoliveirafm.netlify.app/
+**Live site:** https://yatinashok10-cloud.github.io/A-FAN-MADE-WEBSITE-FOR-CHARLES-OLIVERIA/
 
 ![Screenshot of the site](<Screenshot 2026-11-09 022102.png>)
 
